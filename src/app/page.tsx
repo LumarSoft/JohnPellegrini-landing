@@ -1,5 +1,5 @@
 import { Hero } from "@/components/Hero/Hero";
-import { Service1 } from "@/components/Service1/Service1";
+import { Testimonials } from "@/components/Testimonials/Testimonials";
 import { WeProvide } from "@/components/WeProvide/WeProvide";
 
 export default function Home() {
@@ -7,7 +7,7 @@ export default function Home() {
     <main className="px-4 md:px-28 2xl:px-80">
       <Hero />
       <WeProvide />
-      <Service1/>
+      <Testimonials />
     </main>
   );
 }
