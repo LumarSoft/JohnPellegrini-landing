@@ -13,10 +13,10 @@ export const FramerComponent = ({
 }: {
   children: React.ReactNode;
   style?: string;
-  animationInitial?: Record<string, any>;
+  animationInitial?: Record<string, any> | string;
   animationAnimate?: Record<string, any>;
   animationTransition?: Record<string, any>;
-  animationWhileInView?: Record<string, any>;
+  animationWhileInView?: Record<string, any> | string;
   animationViewPort?: Record<string, any>;
   animationVariants?: Record<string, any>;
 }) => {

@@ -1,11 +1,19 @@
 import { FramerComponent } from "../Framer/FramerComponent";
 
-export const Service1 = () => {
+export const Service2 = () => {
   return (
     <div className="flex flex-col lg:flex-row gap-6 xl:gap-20 lg:justify-between ">
       <FramerComponent
-        style="flex flex-col gap-6 lg:pt-24  lg:max-w-lg"
+        style="w-full h-96 bg-neutral-400 rounded-md lg:max-w-xl lg:h-[40rem]"
         animationInitial={{ x: -200, opacity: 0 }}
+        animationWhileInView={{ x: 0, opacity: 1 }}
+        animationViewPort={{ once: true, offset: 0.4 }}
+      >
+        <>aca iria la imagen</>
+      </FramerComponent>
+      <FramerComponent
+        style="flex flex-col gap-6 lg:pt-24  lg:max-w-lg"
+        animationInitial={{ x: 200, opacity: 0 }}
         animationWhileInView={{ x: 0, opacity: 1 }}
         animationViewPort={{ once: true, offset: 0.4 }}
       >
@@ -19,14 +27,6 @@ export const Service1 = () => {
           blanditiis iusto suscipit rerum soluta at nobis eligendi iste, in
           veniam quae?
         </p>
-      </FramerComponent>
-      <FramerComponent
-        style="w-full h-96 bg-neutral-400 rounded-md lg:max-w-xl lg:h-[40rem]"
-        animationInitial={{ x: 200, opacity: 0 }}
-        animationWhileInView={{ x: 0, opacity: 1 }}
-        animationViewPort={{ once: true, offset: 0.4 }}
-      >
-        <>aca iria la imagen</>
       </FramerComponent>
     </div>
   );
