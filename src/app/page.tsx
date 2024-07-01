@@ -10,9 +10,10 @@ export default function Home() {
     <section>
       <main className="px-4 md:px-28 2xl:px-80 py-28 lg:py-48">
         <Hero />
-        <WeProvide />
+        <p>Tipos de seguros que trabajamos</p>
         <Service1 />
-        <Service2 />
+        <WeProvide />
+        <p>Empresas que trabajamos</p>
         <Testimonials />
       </main>
       <Footer />

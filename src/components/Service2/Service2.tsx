@@ -17,9 +17,8 @@ export const Service2 = () => {
         animationWhileInView={{ x: 0, opacity: 1 }}
         animationViewPort={{ once: true, offset: 0.4 }}
       >
-        <h3 className="text-[#dacf76] font-semibold">What we provide</h3>
+        <h3 className="text-[#dacf76] font-semibold">Misión y Vision</h3>
         <h2 className="text-2xl font-semibold">
-          We provide advanced solutions to growin your online business
         </h2>
         <p className="text-neutral-400">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis deleniti

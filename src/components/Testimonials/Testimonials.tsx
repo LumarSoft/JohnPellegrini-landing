@@ -12,7 +12,7 @@ import { FramerComponent } from "../Framer/FramerComponent";
 
 export const Testimonials = () => {
   return (
-    <section className="flex flex-col pt-36 w-full gap-16">
+    <section className="flex flex-col pt-10 w-full gap-16">
       <FramerComponent
         style="flex flex-col gap-4 items-center"
         animationInitial={{ opacity: 0, y: 50 }}

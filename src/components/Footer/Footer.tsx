@@ -24,9 +24,9 @@ export const Footer = () => {
             <b className="text-yellow-300">consultas@ssn.gob.ar</b>
           </p>
         </div>
-        <div className="flex flex-col gap-4 justify-center items-center md:items-start">
+        <div className="flex flex-col gap-4 justify-center items-center">
           <h4 className="text-lg font-semibold text-white">Contacto</h4>
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-2 items-center">
             <div className="flex items-center gap-2">
               <span className="text-sm text-white">+54 (123) 123-4567</span>
             </div>
@@ -42,7 +42,8 @@ export const Footer = () => {
             </div>
           </div>
         </div>
-        <a href="https://www.argentina.gob.ar/superintendencia-de-seguros">
+        <a
+          href="https://www.argentina.gob.ar/superintendencia-de-seguros">
           {" "}
           <Image
             src="/ssn-logo.png"
