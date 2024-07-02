@@ -57,10 +57,10 @@ export const WeProvide = () => {
           <h3 className="text-[#dacf76] font-semibold text-center mb-4">
             Localización
           </h3>
-          <p className="text-white text-neutral-400">
-            Brindamos nuestros servicios en tres sucursales: Rosario, Funes y Pueblo Esther. Contamos con
-            un gran equipo de jóvenes profesionales, consolidando una tercera
-            generación en nuestra historia. 
+          <p className="text-white">
+            Brindamos nuestros servicios en tres sucursales: Rosario, Funes y
+            Pueblo Esther. Contamos con un gran equipo de jóvenes profesionales,
+            consolidando una tercera generación en nuestra historia.
           </p>
         </FramerComponent>
         <FramerComponent
@@ -72,7 +72,7 @@ export const WeProvide = () => {
           <h3 className="text-[#dacf76] font-semibold text-center mb-4">
             Misión
           </h3>
-          <p className="text-white text-neutral-400">
+          <p className="text-white">
             Nuestra misión día a día es brindar acompañamiento a nuestros
             asegurados. Pensamos el modelo de cercanía con este propósito, poder
             tener un vínculo fuerte, brindar seguridad y asesoramiento
@@ -88,11 +88,11 @@ export const WeProvide = () => {
           <h3 className="text-[#dacf76] font-semibold text-center mb-4">
             Visión
           </h3>
-          <p className="text-white text-neutral-400">
+          <p className="text-white">
             Sin dudas, perdurar en el tiempo es sinónimo de compromiso para
-            quienes nos eligen. Seguiremos siempre sobre esa base, que nos permite continuar con el
-            compromiso y los valores que caracterizaron a nuestra organización
-            desde sus inicios.
+            quienes nos eligen. Seguiremos siempre sobre esa base, que nos
+            permite continuar con el compromiso y los valores que caracterizaron
+            a nuestra organización desde sus inicios.
           </p>
         </FramerComponent>
       </FramerComponent>
