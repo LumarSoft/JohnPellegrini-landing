@@ -1,17 +1,24 @@
 import Image from "next/image";
+import { FramerComponent } from "../Framer/FramerComponent";
 export const TypeInsurance = () => {
   return (
-    <section className="w-full py-12">
-      <div className="container px-4 md:px-6">
+    <FramerComponent
+      style="w-full py-12"
+      animationInitial={{ opacity: 0, y: 50 }}
+      animationWhileInView={{ opacity: 1, y: 0 }}
+      animationTransition={{ duration: 0.3, delay: 0.1 }}
+      animationViewPort={{ once: true, offset: 0.4 }}
+    >
+      <div className="container  md:px-6">
         <div className="grid gap-6 md:gap-8">
-          <div className="grid gap-2">
+          <FramerComponent style="grid gap-2">
             <p className="text-xl text-[#dacf76] font-semibold text-center sm:text-xl">
               Tipos de seguros
             </p>
             <p className="md:text-xl text-center text-[#d6d6d6]">
               Encuentre la cobertura de seguro adecuada a sus necesidades.
             </p>
-          </div>
+          </FramerComponent>
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
             <div className="text-white bg-black relative overflow-hidden rounded-lg p-6 border border-zinc-800">
               <div className="flex h-16 w-16 items-center justify-center rounded-full bg-zinc-900 text-2xl font-bold">
@@ -58,6 +65,6 @@ export const TypeInsurance = () => {
           </div>
         </div>
       </div>
-    </section>
+    </FramerComponent>
   );
 };
