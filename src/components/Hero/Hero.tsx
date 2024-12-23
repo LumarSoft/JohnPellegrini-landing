@@ -13,13 +13,13 @@ export const Hero = () => {
           Protegé <b className="underline decoration-yellow-300">tu futuro</b>
         </h1>
         <p className="text-neutral-400 max-lg:text-center">
-          Somos una empresa familiar con más de 49 años de historia en el mercado, dedicados a la intermediacion en la celebración de contratos de seguros y gestoría del automotor.
-
-          Desde John Pellegrini Management Group, nos dedicamos a ofrecerte la
-          tranquilidad que necesitas para enfrentar cualquier eventualidad. Con
-          una amplia gama de productos, estamos aquí para ayudarte a proteger lo que más
-          valoras. Nuestro compromiso es brindarte el mejor servicio y
-          asesoramiento personalizado para que siempre te sientas <b>seguro.</b>
+          Somos una empresa familiar con 50 años de historia en el mercado,
+          dedicados a la intermediación en la celebración de contratos de
+          seguros.Desde John Pellegrini Management Group Srl nos dedicamos a
+          brindar asesoramiento y acompañamiento en todo el proceso de
+          coberturas de los riesgos que necesitas proteger mediante nuestros
+          equipos profesionales priorizando la atencion, respuesta rápida y
+          compromiso con quienes nos eligen.
         </p>
         <div className="max-lg:text-center">
           <button className="bg-[#dacf76] hover:bg-[#b8ac63] text-black py-3 w-1/2 rounded-md transition">

@@ -17,7 +17,7 @@ export default function Home() {
         <Service1 />
         <WeProvide />
         <Companys />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <EmailJsForm />
       </main>
       <Footer />

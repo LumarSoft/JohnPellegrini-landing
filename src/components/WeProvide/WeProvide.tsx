@@ -1,3 +1,4 @@
+import { Users } from "lucide-react";
 import { FramerComponent } from "../Framer/FramerComponent";
 import Image from "next/image";
 
@@ -33,7 +34,7 @@ export const WeProvide = () => {
       <div className="container px-4 md:px-6">
         <div className="space-y-4 text-center">
           <span className="text-2xl sm:text-3xl md:text-xl text-[#dacf76] font-semibold">
-            Qué ofrecemos
+            ¿Qué ofrecemos?
           </span>
         </div>
         <div className="mx-auto grid max-w-7xl grid-cols-1 gap-6 py-12 sm:grid-cols-2 lg:grid-cols-3">
@@ -41,21 +42,20 @@ export const WeProvide = () => {
             <div>
               <div className="flex items-center gap-4">
                 <div className="rounded-md p-3 flex items-center justify-center bg-[#E6E6E6] px-2 py-2">
-                  <Image
-                    src={"/eye-svgrepo-com.png"}
+                <Image
+                    src={"/team.png"}
                     alt="icono de un cohete"
-                    width={24}
-                    height={24}
+                    width={32}
+                    height={32}
                   />
                 </div>
-                <p className="text-xl font-semibold">Visión</p>
+                <p className="text-xl font-semibold">Equipo</p>
               </div>
             </div>
             <p className="text-gray-200 mt-4 text-base flex-grow">
-              Sin dudas, perdurar en el tiempo es sinónimo de compromiso para
-              quienes nos eligen. Seguiremos siempre sobre esa base, que nos
-              permite continuar con el compromiso y los valores que
-              caracterizaron a nuestra organización desde sus inicios.
+              Brindamos nuestros servicios con un gran equipo de jóvenes
+              profesionales consolidando una tercera generación que continua con
+              el compromiso y valores que nos caracterizo desde sus inicio.
             </p>
           </div>
 
@@ -64,10 +64,10 @@ export const WeProvide = () => {
               <div className="flex items-center gap-4">
                 <div className="rounded-md p-3 flex items-center justify-center bg-[#E6E6E6] px-2 py-2">
                   <Image
-                    src={"/rocket-svgrepo-com.png"}
+                    src={"/mission.png"}
                     alt="icono de un cohete"
-                    width={24}
-                    height={24}
+                    width={32}
+                    height={32}
                   />
                 </div>
                 <p className="text-xl font-semibold">Misión</p>
@@ -75,9 +75,9 @@ export const WeProvide = () => {
             </div>
             <p className="text-gray-200 mt-4 text-base flex-grow">
               Nuestra misión día a día es brindar acompañamiento a nuestros
-              asegurados. Pensamos el modelo de cercanía con este propósito,
-              poder tener un vínculo fuerte, brindar seguridad y asesoramiento
-              constante.
+              clientes .Implementamos un modelo de cercanía con este propósito y
+              así lograr un vinculo fuerte proporcionando seguridad y
+              asesoramiento constante
             </p>
           </div>
 
@@ -86,20 +86,21 @@ export const WeProvide = () => {
               <div className="flex items-center gap-4">
                 <div className="rounded-md p-3 flex items-center justify-center bg-[#E6E6E6] px-2 py-2">
                   <Image
-                    src={"/locate-svgrepo-com.png"}
+                    src={"/quality.png"}
                     alt="icono de un cohete"
-                    width={24}
-                    height={24}
+                    width={32}
+                    height={32}
                   />
                 </div>
-                <p className="text-xl font-semibold">Localización</p>
+                <p className="text-xl font-semibold">Experiencia</p>
               </div>
             </div>
             <p className="text-gray-200 mt-4 text-base flex-grow">
-              Brindamos nuestros servicios en tres sucursales: Rosario, Funes y
-              Pueblo Esther. Contamos con un gran equipo de jóvenes
-              profesionales, consolidando una tercera generación en nuestra
-              historia.
+              Luego de décadas de desarrollo y crecimiento nos destacamos por
+              formar profesionales , construir vínculos solidos con clientes y
+              aseguradoras y adaptarnos a las nuevas tecnologías, siempre
+              conservando los valores como la honestidad, la responsabilidad y
+              el compromiso.
             </p>
           </div>
         </div>
