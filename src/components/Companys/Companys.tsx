@@ -30,7 +30,7 @@ export const Companys = () => {
             className=""
           />
         </div>
-        <div className="flex items-center justify-center bg-black rounded-lg border border-zinc-800 w-full">
+        {/* <div className="flex items-center justify-center bg-black rounded-lg border border-zinc-800 w-full">
           <Image
             src="/lasegunda.png"
             alt="Company 3"
@@ -38,7 +38,7 @@ export const Companys = () => {
             height={300}
             className=""
           />
-        </div>
+        </div> */}
       </section>
     </FramerComponent>
   );
