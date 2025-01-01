@@ -15,7 +15,7 @@ export const Hero = () => {
         <p className="text-neutral-400 max-lg:text-center">
           Somos una empresa familiar con 50 años de historia en el mercado,
           dedicados a la intermediación en la celebración de contratos de
-          seguros.Desde John Pellegrini Management Group Srl nos dedicamos a
+          seguros. Desde John Pellegrini Management Group Srl nos dedicamos a
           brindar asesoramiento y acompañamiento en todo el proceso de
           coberturas de los riesgos que necesitas proteger mediante nuestros
           equipos profesionales priorizando la atencion, respuesta rápida y
